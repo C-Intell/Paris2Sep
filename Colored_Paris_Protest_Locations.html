@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8c488f76c4908d84f69d8e17adf3d7eb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8c488f76c4908d84f69d8e17adf3d7eb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8c488f76c4908d84f69d8e17adf3d7eb = L.map(
+                "map_8c488f76c4908d84f69d8e17adf3d7eb",
+                {
+                    center: [48.8566, 2.3522],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fc230b1ab09612ecb97e8068be078176 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8c488f76c4908d84f69d8e17adf3d7eb);
+        
+    
+            var marker_20b5a38d093823981788377e9b642186 = L.marker(
+                [48.8321650056455, 2.355372173009315],
+                {}
+            ).addTo(map_8c488f76c4908d84f69d8e17adf3d7eb);
+        
+    
+            var div_icon_943107d845b464553197516f68f7ac77 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size: 18pt; color : black; background-color: red; border: 2px solid black; border-radius: 50%; width: 30px; height: 30px; line-height: 30px; text-align: center;\u0027\u003eA\u003c/div\u003e"});
+            marker_20b5a38d093823981788377e9b642186.setIcon(div_icon_943107d845b464553197516f68f7ac77);
+        
+    
+        var popup_c89b69fc11afa7512d7052e67d02c225 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3cf0ce2f18efdeee037785ac8927bc1a = $(`<div id="html_3cf0ce2f18efdeee037785ac8927bc1a" style="width: 100.0%; height: 100.0%;">A: Yellow Vests (start)</div>`)[0];
+                popup_c89b69fc11afa7512d7052e67d02c225.setContent(html_3cf0ce2f18efdeee037785ac8927bc1a);
+            
+        
+
+        marker_20b5a38d093823981788377e9b642186.bindPopup(popup_c89b69fc11afa7512d7052e67d02c225)
+        ;
+
+        
+    
+    
+            var marker_a79dbf99e6ed7f1f1e6e6326905e9cd8 = L.marker(
+                [48.83762000074894, 2.272496342155404],
+                {}
+            ).addTo(map_8c488f76c4908d84f69d8e17adf3d7eb);
+        
+    
+            var div_icon_141aea22963c0c163819f9cc760fbddc = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size: 18pt; color : black; background-color: red; border: 2px solid black; border-radius: 50%; width: 30px; height: 30px; line-height: 30px; text-align: center;\u0027\u003eB\u003c/div\u003e"});
+            marker_a79dbf99e6ed7f1f1e6e6326905e9cd8.setIcon(div_icon_141aea22963c0c163819f9cc760fbddc);
+        
+    
+        var popup_0e98fc32baa215f6d6e9a673ccaa80c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27b632323d3a171d33c51d42b89dc905 = $(`<div id="html_27b632323d3a171d33c51d42b89dc905" style="width: 100.0%; height: 100.0%;">B: Yellow Vests (end)</div>`)[0];
+                popup_0e98fc32baa215f6d6e9a673ccaa80c2.setContent(html_27b632323d3a171d33c51d42b89dc905);
+            
+        
+
+        marker_a79dbf99e6ed7f1f1e6e6326905e9cd8.bindPopup(popup_0e98fc32baa215f6d6e9a673ccaa80c2)
+        ;
+
+        
+    
+    
+            var marker_a6f5ee28c02c93ac2e9e7625df80188c = L.marker(
+                [48.76423485306362, 2.3696271496334296],
+                {}
+            ).addTo(map_8c488f76c4908d84f69d8e17adf3d7eb);
+        
+    
+            var div_icon_98aa61050a3431d5316538448a8d1a86 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size: 18pt; color : black; background-color: red; border: 2px solid black; border-radius: 50%; width: 30px; height: 30px; line-height: 30px; text-align: center;\u0027\u003eC\u003c/div\u003e"});
+            marker_a6f5ee28c02c93ac2e9e7625df80188c.setIcon(div_icon_98aa61050a3431d5316538448a8d1a86);
+        
+    
+        var popup_fd41c07408025e046e912c85d6e3f163 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e83200dc5e7a4b661247e040ee4f073 = $(`<div id="html_4e83200dc5e7a4b661247e040ee4f073" style="width: 100.0%; height: 100.0%;">C: Far-right Movement "The Nationalists" (unauthorised event)</div>`)[0];
+                popup_fd41c07408025e046e912c85d6e3f163.setContent(html_4e83200dc5e7a4b661247e040ee4f073);
+            
+        
+
+        marker_a6f5ee28c02c93ac2e9e7625df80188c.bindPopup(popup_fd41c07408025e046e912c85d6e3f163)
+        ;
+
+        
+    
+    
+            var marker_b1714b08b6188a14e2e10ce89007967c = L.marker(
+                [48.86904468606976, 2.272841463811533],
+                {}
+            ).addTo(map_8c488f76c4908d84f69d8e17adf3d7eb);
+        
+    
+            var div_icon_1a4910f29abca4bd9472ad211524b71c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size: 18pt; color : black; background-color: yellow; border: 2px solid black; border-radius: 50%; width: 30px; height: 30px; line-height: 30px; text-align: center;\u0027\u003eD\u003c/div\u003e"});
+            marker_b1714b08b6188a14e2e10ce89007967c.setIcon(div_icon_1a4910f29abca4bd9472ad211524b71c);
+        
+    
+        var popup_e4aca0c8cb45400200cd54abd732e30d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3bd733351249b1b29071db13095d9c6 = $(`<div id="html_c3bd733351249b1b29071db13095d9c6" style="width: 100.0%; height: 100.0%;">D: Rally for Azat Miftakhov</div>`)[0];
+                popup_e4aca0c8cb45400200cd54abd732e30d.setContent(html_c3bd733351249b1b29071db13095d9c6);
+            
+        
+
+        marker_b1714b08b6188a14e2e10ce89007967c.bindPopup(popup_e4aca0c8cb45400200cd54abd732e30d)
+        ;
+
+        
+    
+    
+            var marker_75bbf56b5153db0f6b29c360631c6155 = L.marker(
+                [48.86757107931608, 2.3641393196336806],
+                {}
+            ).addTo(map_8c488f76c4908d84f69d8e17adf3d7eb);
+        
+    
+            var div_icon_93677122dcf86263d8536bcddfb7c4a5 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size: 18pt; color : black; background-color: yellow; border: 2px solid black; border-radius: 50%; width: 30px; height: 30px; line-height: 30px; text-align: center;\u0027\u003eE\u003c/div\u003e"});
+            marker_75bbf56b5153db0f6b29c360631c6155.setIcon(div_icon_93677122dcf86263d8536bcddfb7c4a5);
+        
+    
+        var popup_ed438e046f4c2fd86a19bea5ba94b466 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5d05ffa8bdb55cbab84d59867b15a2f = $(`<div id="html_d5d05ffa8bdb55cbab84d59867b15a2f" style="width: 100.0%; height: 100.0%;">E: Senegal-related Protest</div>`)[0];
+                popup_ed438e046f4c2fd86a19bea5ba94b466.setContent(html_d5d05ffa8bdb55cbab84d59867b15a2f);
+            
+        
+
+        marker_75bbf56b5153db0f6b29c360631c6155.bindPopup(popup_ed438e046f4c2fd86a19bea5ba94b466)
+        ;
+
+        
+    
+    
+            var marker_a8928b2cc6b375b2f40610e134495aff = L.marker(
+                [48.85309969903965, 2.369136218112696],
+                {}
+            ).addTo(map_8c488f76c4908d84f69d8e17adf3d7eb);
+        
+    
+            var div_icon_37f94ec09a868ad19f3a9ccafae8c7d0 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027font-size: 18pt; color : black; background-color: yellow; border: 2px solid black; border-radius: 50%; width: 30px; height: 30px; line-height: 30px; text-align: center;\u0027\u003eF\u003c/div\u003e"});
+            marker_a8928b2cc6b375b2f40610e134495aff.setIcon(div_icon_37f94ec09a868ad19f3a9ccafae8c7d0);
+        
+    
+        var popup_54f5d35824c98ae83636585b57a2a8d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bd4bc2acfbdd2cd134857d8f93704a1 = $(`<div id="html_1bd4bc2acfbdd2cd134857d8f93704a1" style="width: 100.0%; height: 100.0%;">F: Niger-related Protest</div>`)[0];
+                popup_54f5d35824c98ae83636585b57a2a8d8.setContent(html_1bd4bc2acfbdd2cd134857d8f93704a1);
+            
+        
+
+        marker_a8928b2cc6b375b2f40610e134495aff.bindPopup(popup_54f5d35824c98ae83636585b57a2a8d8)
+        ;
+
+        
+    
+</script>
+</html>
